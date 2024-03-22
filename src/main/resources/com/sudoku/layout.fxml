@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane id="base_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="false" opacity="0.77" pickOnBounds="true" prefHeight="716.0" prefWidth="873.0" styleClass="base_pane" stylesheets="@sudoku.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sudoku.SudokuController">
+   <children>
+      <Button fx:id="bt_one" focusTraversable="false" layoutX="240.0" layoutY="595.0" styleClass="number_button" text="1" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_two" focusTraversable="false" layoutX="282.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="2" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_three" focusTraversable="false" layoutX="324.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="3" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_four" focusTraversable="false" layoutX="366.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="4" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_five" focusTraversable="false" layoutX="411.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="5" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_six" focusTraversable="false" layoutX="452.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="6" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_seven" focusTraversable="false" layoutX="495.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="7" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_eight" focusTraversable="false" layoutX="536.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="8" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_nine" focusTraversable="false" layoutX="575.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="9" textAlignment="JUSTIFY" />
+      <Canvas fx:id="canvas" focusTraversable="true" height="450.0" layoutX="197.0" layoutY="75.0" nodeOrientation="INHERIT" pickOnBounds="true" width="450.0" />
+      <Button fx:id="bt_reset" contentDisplay="CENTER" layoutX="683.0" layoutY="156.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" text="Reset Puzzle" />
+      <Button fx:id="bt_submit" contentDisplay="CENTER" layoutX="683.0" layoutY="500.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Submit" />
+      <ChoiceBox fx:id="difficultyChoiceBox" layoutX="683.0" layoutY="91.0" prefHeight="25.0" prefWidth="78.0">
+      <items>
+         <FXCollections fx:factory="observableArrayList">
+            <String fx:value="Easy" />
+            <String fx:value="Medium" />
+            <String fx:value="Hard" />
+         </FXCollections>
+      </items>
+      </ChoiceBox>
+      <Button alignment="TOP_LEFT" layoutX="774.0" layoutY="91.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="New Puzzle" />
+
+   </children>
+</Pane>

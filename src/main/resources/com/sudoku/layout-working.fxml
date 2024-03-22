@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane id="base_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="false" opacity="0.77" prefHeight="716.0" prefWidth="873.0" styleClass="base_pane" stylesheets="@sudoku.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sudoku.SudokuController"
+      pickOnBounds="true" >
+   <children>
+      <Button fx:id="bt_one" layoutX="102.0" layoutY="595.0" styleClass="number_button" text="1" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_two" layoutX="136.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="2" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_three" layoutX="175.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="3" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_four" layoutX="208.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="4" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_five" layoutX="242.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="5" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_six" layoutX="274.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="6" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_seven" layoutX="307.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="7" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_eight" layoutX="341.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="8" textAlignment="JUSTIFY" />
+      <Button fx:id="bt_nine" layoutX="375.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="9" textAlignment="JUSTIFY" />
+      <Canvas fx:id="canvas" height="450.0" layoutX="186.0" layoutY="70.0" nodeOrientation="INHERIT" pickOnBounds="true" width="450.0" />
+   </children>
+</Pane>
