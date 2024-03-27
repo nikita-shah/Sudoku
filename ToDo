@@ -1,0 +1,23 @@
+To Do :
+
+Clean up repo
+- identify platform specific and IDE specific files that do not need to be on github and clean them up 
+- add in .gitignore the files needing clean up
+
+Refactor the existing code for better design
+- seperate out the game logic from UI logic
+- make the game logic reusable, such that maybe a jar can be extracted out of it which can be used for creating web applications later on.
+
+Add functionality for puzzle generation
+- see what constitutes as easy, medium, hard 
+- see what constitutes as a valid and a solvable sudoku puzzle
+
+Add functionality for solution generator
+- back tracking single thread
+- back tracking multiple threads
+- generate all possible solutions
+
+Add platforms
+- add web application
+- add mac os application
+- add android application
