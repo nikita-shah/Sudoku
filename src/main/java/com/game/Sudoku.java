@@ -1,6 +1,6 @@
 package com.game;
 //initial draft inspired by https://github.com/jcollard/captaincoder/blob/master/Java/sudoku-javafx/README.md
-
+// very useful site: https://openjfx.io/openjfx-docs/#introduction
 //packaging and distribution could be improved, need to look at : https://github.com/dlemmermann/JPackageScriptFX
 
 import javafx.application.Application;
