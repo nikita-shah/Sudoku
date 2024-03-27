@@ -1,7 +1,7 @@
 
 App Installers.
 Link to the app for Windows (EXE) : https://www.mediafire.com/file/qtnuhh00jea5hg0/Sudoku-1.0.exe/file
-  Follow the installer and find the app installed in your program files folder :)
+  - Follow the installer and find the app installed in your program files folder :)
 
 
 
