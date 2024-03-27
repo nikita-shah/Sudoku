@@ -1,3 +1,12 @@
+
+App Installers.
+Link to the app for Windows (EXE) : https://www.mediafire.com/file/qtnuhh00jea5hg0/Sudoku-1.0.exe/file
+  Follow the installer and find the app installed in your program files folder :)
+
+
+
+
+
 **This is a java, javafx based application which will load a Sudoku game for you.**
 ****build** using** mvn clean install package
 **run usin**g mvn clean javafx:run in the "sudoku" directory.
