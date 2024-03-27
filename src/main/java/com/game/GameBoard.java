@@ -1,4 +1,4 @@
-package com.sudoku;
+package com.game;
 
 public class GameBoard {
 

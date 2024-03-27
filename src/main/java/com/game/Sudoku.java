@@ -1,12 +1,13 @@
-package com.sudoku;
+package com.game;
 //initial draft inspired by https://github.com/jcollard/captaincoder/blob/master/Java/sudoku-javafx/README.md
+
+//packaging and distribution could be improved, need to look at : https://github.com/dlemmermann/JPackageScriptFX
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
-import java.io.IOException;
 
 public class Sudoku extends Application {
     @Override
@@ -14,7 +15,7 @@ public class Sudoku extends Application {
     public void start(Stage primaryStage) throws Exception {
 
         /* load layout.fxml from file and assign it to a scene root object */
-        System.out.println(getClass().getResource("").getPath());
+        //System.out.println(getClass().getResource("").getPath());
         Parent root = FXMLLoader.load(getClass().getResource("layout.fxml"));
         /* assign the root to a new scene and define its dimensions */
         Scene scene = new Scene(root, 873, 716);
@@ -28,6 +29,7 @@ public class Sudoku extends Application {
     }
 
     public static void main(String[] args) {
+        System.out.println("Launching Sudoku!");
         launch();
     }
 }

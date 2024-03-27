@@ -7,7 +7,7 @@
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane id="base_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="false" opacity="0.77" pickOnBounds="true" prefHeight="716.0" prefWidth="873.0" styleClass="base_pane" stylesheets="@sudoku.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sudoku.SudokuController">
+<Pane id="base_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="false" opacity="0.77" pickOnBounds="true" prefHeight="716.0" prefWidth="873.0" styleClass="base_pane" stylesheets="@sudoku.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.game.SudokuController">
    <children>
       <Button fx:id="bt_one" focusTraversable="false" layoutX="240.0" layoutY="595.0" styleClass="number_button" text="1" textAlignment="JUSTIFY" />
       <Button fx:id="bt_two" focusTraversable="false" layoutX="282.0" layoutY="595.0" mnemonicParsing="false" styleClass="number_button" text="2" textAlignment="JUSTIFY" />

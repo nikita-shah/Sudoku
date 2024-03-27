@@ -1,4 +1,4 @@
-package com.sudoku;
+package com.game;
 
 import javafx.fxml.FXML;
 import javafx.scene.canvas.GraphicsContext;
